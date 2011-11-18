@@ -8,6 +8,10 @@ pre code {
   line-height: 1.5em;
 }
 
+pre {
+  margin-bottom: 1em;
+}
+
 p {
   font-size: 1em;
   line-height: 1.5em;
