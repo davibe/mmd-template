@@ -1,4 +1,4 @@
-body {
+.page {
   padding: 3em;
   width: 45em; /* A4-like */
 }
@@ -62,6 +62,7 @@ p {
   -moz-transform: rotate(2deg);
   -webkit-transform: rotate(2deg);
 }*/
+
 .avatar {
   float: right;
   border: 13px solid #933;
@@ -73,6 +74,7 @@ p {
   -moz-transform: rotate(2deg);
   -webkit-transform: rotate(2deg);
 }
+
 .avatar + figcaption {
   display: none;
 }
