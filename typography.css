@@ -1,0 +1,53 @@
+pre {
+  border-left: .5em solid #dfdfdf;
+  padding-left: 1em;
+  margin-left: 1em;
+}
+
+pre code {
+  line-height: 1.5em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+/*
+  column-count: 2;
+  column-gap: 1.5em;
+  -moz-column-count: 2;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1em;
+*/
+}
+p:last-child {
+  margin-bottom: 0px !important;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 2.5em;
+}
+
+ul {
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
+}
+
+li {
+  list-style: disc;
+	margin-left:  0.4em;
+  line-height: 1.5em;
+}
+

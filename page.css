@@ -1,0 +1,78 @@
+.page {
+  padding: 3em;
+  width: 45em; /* A4-like */
+}
+
+div, p, a, li, td { 
+  /* do not allow iphone to break layout*/
+  /* -webkit-text-size-adjust:none; */
+}
+
+/*
+@font-face {
+	font-family: "GOUDY OLD STYLE";
+	src: url('Goudy Old Style.ttf');
+}
+*/
+
+body {
+  /* background: url(images/underline.gif); */
+  font-size: small;
+  font-family: Optima, "Arial", Sans-Serif;
+  font-size: 16px;
+  overflow:none;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3 {
+  text-shadow: 1px 1px 3px #ddd;
+}
+
+h2 {
+  color: #722;
+}
+
+h3 {
+  color: #933;
+}
+
+p {
+/*
+  column-count: 2;
+  column-gap: 1.5em;
+  -moz-column-count: 2;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1em;
+*/
+}
+
+/*.avatar {
+  position: absolute;
+  border: 13px solid #933;
+  border-top: 40px solid #933;
+  width: 11em;
+  top: -10px;
+  left: 0px;
+  left: 33em;
+  transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+}*/
+.avatar {
+  float: right;
+  border: 13px solid #933;
+  border-top: 40px solid #933;
+  margin-top: -4.5em;
+  width: 11em;
+  left: 33em;
+  transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+}
+.avatar + figcaption {
+  display: none;
+}
