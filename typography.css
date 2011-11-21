@@ -54,6 +54,7 @@ ul li {
 }
 
 li {
+  list-style-position: inside;
   margin-left:  0.4em;
   line-height: 1.5em;
 }
