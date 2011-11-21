@@ -49,9 +49,12 @@ ul {
   margin-left: 1.5em;
 }
 
-li {
+ul li {
   list-style: disc;
-	margin-left:  0.4em;
+}
+
+li {
+  margin-left:  0.4em;
   line-height: 1.5em;
 }
 
