@@ -50,12 +50,12 @@ ul {
 }
 
 ul li {
-  list-style: disc;
+  list-style: disc outside;
 }
 
 li {
-  list-style-position: inside;
-  margin-left:  0.4em;
+  list-style: decimal outside;
+  margin-left:  1.5em;
   line-height: 1.5em;
 }
 
